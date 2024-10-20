@@ -503,7 +503,7 @@ span {
     text-align: center;
 }
 
-.img10{
+.img10 {
     margin-left: 42%;
 }
 
@@ -521,49 +521,55 @@ span {
     margin-top: 2%;
 }
 
-.login{
-    border: 2px solid ;
+.login {
+    border: 2px solid;
     height: 50vh;
     width: 33%;
-    border-radius: 50px;
+    border-radius: 35px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 
-.page2{
+.img11 {
+    border-radius: 30px;
+    height: 50vh;
+}
+
+.page2 {
     background-color: #FFFFFF;
     /* height: 70vh; */
     /* margin: 8%; */
     padding: auto;
 }
 
-.box14{
+.box14 {
     background-color: rgb(33, 33, 104);
     height: 50vh;
     width: 100%;
     color: white;
 }
 
-.box14 h1{
+.box14 h1 {
     padding: 5%;
     text-align: center;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box14 p{
+.box14 p {
 
     text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section11{
+.section11 {
     margin: 0 auto;
+    height: 50vh;
 }
 
-.box15{
+.box15 {
 
     width: 100%;
     /* margin: 500px; */
@@ -571,18 +577,331 @@ span {
     text-align: center;
 }
 
-.box15 p{
-    width: 100%;
+.box15 p {
+    width: 70%;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-   
+    text-align: justify;
+    margin-left: 15%;
 }
 
-.box16{
-    background-color: aqua;
-    height: 30vh;
+.box16 {
+    /* background-color: aqua; */
+    height: 80vh;
     width: 100%;
     display: flex;
-    border: 2px solid;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.box16-1 {
+    border: solid black;
+    height: 75vh;
+    width: 25%;
+    position: relative;
+    background-color: lightgray;
+}
+
+.img12 {
+    position: absolute;
+    left: 45%;
+    top: 25px;
+}
+
+.box16-1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 85px;
+    text-align: center;
+}
+
+.box16-1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* padding: 85px; */
+    text-align: justify;
+
+}
+
+.box16-2 {
+    border: solid black;
+    height: 75vh;
+    width: 25%;
+    position: relative;
+    background-color: lightgray;
+}
+
+.img13 {
+    position: absolute;
+    right: 45%;
+    top: 25px;
+}
+
+.box16-2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 80px;
+    text-align: center;
+}
+
+.box16-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* padding: 85px; */
+    text-align: justify;
+
+}
+
+.box16-3 {
+    border: solid black;
+    height: 75vh;
+    width: 25%;
+    position: relative;
+    background-color: lightgray;
+}
+
+.img14 {
+    position: absolute;
+    right: 45%;
+    top: 25px;
+}
+
+.box16-3 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 80px;
+    text-align: center;
+}
+
+.box16-3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* padding: 85px; */
+    text-align: justify;
+
+}
+
+.section13 {
+    /* background-color: rgb(33, 122, 201); */
+    height: 60vh;
+    width: 100%;
+}
+
+.box17 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 90px;
+    margin-left: 30pxs;
+}
+
+.bob17 h1 {
+    margin-right: 30px;
+}
+
+.box18 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.section14 {
+    height: 30vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.box19 h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box19 p {
+    width: 70%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.section15 {
+    height: 65vh;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.box20 h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box20 p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box20-1 {
+    height: 30vh;
+    width: 100%;
+
+    font-size: 20px;
+}
+
+.btn4 {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 20px;
+    border: solid 1px black;
+    margin-left: 45%;
+    border-radius: 30px;
+}
+
+.section16 {
+    height: 50vh;
+    width: 100%;
+    background-color: gray;
+}
+
+.box21 {
+    display: flex;
+}
+
+.box21-1 {
+    height: 20vh;
+    width: 30px;
+
+}
+
+/* ::after p{
+
+} */
+
+.box22 {
+    background-color: rgb(33, 33, 104);
+    height: 50vh;
+    width: 100%;
+    color: white;
+}
+
+.box22 h1 {
+    padding: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box22 p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box23 {
+    height: 70vh;
+}
+
+.box23 p {
+    width: 70%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.box24 {
+    height: 70vh;
+}
+
+.box24 h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box24 p {
+    width: 70%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.box25 {
+    height: 60vh;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.box25 h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box25 ul {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box25 h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn5 {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 20px;
+    border: solid 1px black;
+    margin-left: 45%;
+    border-radius: 30px;
+}
+
+.box26 {
+    background-color: rgb(33, 33, 104);
+    height: 50vh;
+    width: 100%;
+    color: white;
+}
+
+.box26 h1 {
+    padding: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box26 p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn6 {
+    color: white;
+    background-color: red;
+    height: 5vh;
+    width: 200px;
+    margin-left: 42%;
+}
+
+.box27{
+    height: 70vh;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box27-1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
