@@ -409,7 +409,7 @@ span {
     width: 70%;
     border-radius: 30px;
     left: 15%;
-    top: 460%;
+    top: 400%;
 }
 
 .box7 {
@@ -521,20 +521,7 @@ span {
     margin-top: 2%;
 }
 
-.login {
-    border: 2px solid;
-    height: 50vh;
-    width: 33%;
-    border-radius: 35px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
 
-.img11 {
-    border-radius: 30px;
-    height: 50vh;
-}
 
 .page2 {
     background-color: #FFFFFF;
@@ -904,4 +891,143 @@ span {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+input{
+    border: none;
+    border-bottom: solid 1px black;
+    background: transparent;
+    outline: none;
+    text-align: center;
+}
+
+.box13{
+    border: 2px solid black;
+    height: 38vh;
+    width: 500px;
+    border-radius: 35px;
+    /* padding: 30px; */
+    margin-left: 35%;
+    margin-top: 5%;
+    display: flex;
+    position: relative;
+}
+
+.msg{
+    margin-bottom: 50px;
+}
+
+/* .login {
+    border: 2px solid;
+    height: 50vh;
+    width: 33%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
+
+.img11 {
+    border-radius: 30px;
+    height: 38vh;
+}
+
+.int{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.btn4{
+    height: 3vh;
+    width: 90px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 40px;
+}
+
+.sub{
+    background-color: lightgray ;
+    height: 90vh;
+    width: 100%;
+}
+
+.sub1{
+    display: flex;
+    padding-left: 35% ;
+}
+
+.sub1 h1{
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub2{
+    display: flex;
+}
+
+.sub2-0{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38% ;
+}
+
+.sub2-1{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+}
+
+.sub2-1-1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.sub2-1-2{
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: -30px;
+    /* height: 20vh;
+    width: 500px; */
+}
+
+.sub2-1-2-1{
+    margin-top: 10px;
+}
+
+.sub3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sub3-1{
+    height: 25vh;
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.sub3-2{
+    height: 25vh;
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.sub3-3{
+    height: 25vh;
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
 }
